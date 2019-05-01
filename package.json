@@ -1,0 +1,32 @@
+{
+  "main":"uri.js",
+  "name":"uri-clean",
+  "version":"0.0.1",
+  "description":"Clean URI.",
+  "keywords":[
+    "uri",
+    "path",
+    "address"
+  ],
+  "tags":[
+    "uri",
+    "path",
+    "address"
+  ],
+  "author":{
+    "name":"Thiago Silva",
+    "name":"thiago.eti@gmail.com",
+    "url":"https://thiago.eti.br"
+  },
+  "repository":{
+    "type":"git",
+    "url":"github:thiagoeti/nodejs-uri-clean"
+  },
+  "bugs":"https://github.com/thiagoeti/nodejs-uri-clean/issues",
+  "dependencies":{},
+  "license":"unlicense.org",
+  "engines":{
+    "node": "*",
+    "npm": "*"
+  }
+}
