@@ -1,7 +1,7 @@
 {
   "main":"uri.js",
   "name":"uri-clean",
-  "version":"0.0.1",
+  "version":"1.0.0",
   "description":"Clean URI.",
   "keywords":[
     "uri",

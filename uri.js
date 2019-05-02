@@ -4,6 +4,10 @@ var uri=function(uri){
   // search
   let search=[];
   let s={};
+  s={from:new RegExp(" ", "g"), to:"-"}; search.push(s);
+  s={from:new RegExp("\t", "g"), to:"-"}; search.push(s);
+  s={from:new RegExp("\n", "g"), to:"-"}; search.push(s);
+  s={from:new RegExp("\r", "g"), to:"-"}; search.push(s);
   s={from:new RegExp("ä|æ|ǽ", "g"), to:"ae"}; search.push(s);
   s={from:new RegExp("ö|œ", "g"), to:"oe"}; search.push(s);
   s={from:new RegExp("ü", "g"), to:"ue"}; search.push(s);
